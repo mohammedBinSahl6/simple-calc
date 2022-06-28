@@ -1,0 +1,18 @@
+:root{
+    --c--:#eacda3;
+    --e--:#d6ae7b;
+}
+
+body {
+    background: linear-gradient(to right ,var(--c--),var(--e--));
+}
+
+.btn-primary , .btn-dark{
+    width: 10vh;
+    height: 10vh;
+    font-size: 6vh;
+}
+
+.btn-danger{
+    font-size: 3vh;
+}
